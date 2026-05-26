@@ -1,1 +1,4 @@
+User-agent: *
+Allow: /
 
+Sitemap: https://bssoptimizer.github.io/bss-blue-hive-optimizer/sitemap.xml
