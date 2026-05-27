@@ -1,4 +1,17 @@
 User-agent: *
 Allow: /
 
+# Block GitHub repository-style pages from being indexed
+Disallow: /blob/
+Disallow: /tree/
+Disallow: /commit/
+Disallow: /issues/
+Disallow: /pull/
+Disallow: /actions/
+Disallow: /packages/
+
+# Prevent duplicate or low-value query-style pages
+Disallow: /*?*
+
+# Sitemap location
 Sitemap: https://bssoptimizer.github.io/bss-blue-hive-optimizer/sitemap.xml
